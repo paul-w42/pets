@@ -16,9 +16,9 @@ $f3 = Base::instance();     // i.e. Base f3 = new Base() in java
 
 // Define a default route
 $f3->route('GET /', function() {
-    echo '<h1>Pet Home</h>';
-    //$view = new Template();
-    //echo $view->render('views/home.html');
+    //echo '<h1>Pet Home</h>';
+    $view = new Template();
+    echo $view->render('views/home.html');
 });
 
 // Run Fat-Free
