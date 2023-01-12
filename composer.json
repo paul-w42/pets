@@ -1,0 +1,16 @@
+{
+  "name": "paulwood/328/pets",
+  "authors": [
+    {
+      "name": "Paul Woods",
+      "email": "paul.woods@student.greenriver.edu"
+    },
+    {
+      "name": "jgonzalez/328/pets",
+      "email": "gonzalez.jazmin@student.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
